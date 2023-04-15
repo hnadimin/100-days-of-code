@@ -15,7 +15,7 @@ func shift3Encode(str string) string {
 }
 
 func main() {
-	text := "Hello, golang world!"
+	text := "golang encode first program"
 	encodedText := shift3Encode(text)
 	fmt.Println(encodedText)
 }
